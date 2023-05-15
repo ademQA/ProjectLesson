@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class OgretmenIslemleri {
     Scanner scanner = new Scanner(System.in);
-    ArrayList<Ogretmen> ogretmenList = new ArrayList();
+   static ArrayList<Ogretmen> ogretmenList = new ArrayList();
     //AnaMenu anaMenu=new AnaMenu();
 
     void ogretmenMenu() {
@@ -35,8 +35,9 @@ public class OgretmenIslemleri {
                 silme();
                 break;
             }
-            case '0': {
-                cikis();
+            case 'Q': {
+                AnaMenu anaMenu=new AnaMenu();
+                anaMenu.menu();
                 break;
             }
             default:

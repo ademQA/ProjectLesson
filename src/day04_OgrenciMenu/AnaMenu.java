@@ -26,7 +26,8 @@ public class AnaMenu {
                 ogretmenIslemleri.ogretmenMenu();
                 break;
             }
-            case '0': {
+            case 'Q': {
+                System.exit(0);
                 System.out.println("yine bekleriz...");
                 break;
             }

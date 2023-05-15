@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class OgrenciIslemleri {
 
     Scanner scanner = new Scanner(System.in);
-    ArrayList<Ogrenci> ogrenciList = new ArrayList();
+   static ArrayList<Ogrenci> ogrenciList = new ArrayList();
     //AnaMenu anaMenu=new AnaMenu();
 
     void ogrenciMenu() {
@@ -37,9 +37,9 @@ public class OgrenciIslemleri {
                 silme();
                 break;
             }
-            case '0': {
-                cikis();
-                break;
+            case 'Q': {
+              AnaMenu anaMenu=new AnaMenu();
+              anaMenu.menu();
             }
             default:
                 System.out.println("Hatalı seçim yaptınız: ");
@@ -93,7 +93,6 @@ public class OgrenciIslemleri {
                 flag++;
                 break;
             }
-
         }
         if (flag == 0) {
             System.out.println("Aradığınız öğrenci yoktur");
