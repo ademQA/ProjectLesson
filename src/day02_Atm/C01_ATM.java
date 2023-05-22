@@ -1,4 +1,4 @@
-package day02;
+package day02_Atm;
 import java.util.Scanner;
 public class C01_ATM {
   /*  Kullanicidan giriş için kart numarasi ve şifresini isteyin, eger herhangi birini yanlis girerse tekrar isteyin.

@@ -1,4 +1,4 @@
-package day01;
+package day01_Manav;
 
 import java.util.ArrayList;
 import java.util.Arrays;
