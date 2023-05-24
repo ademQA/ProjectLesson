@@ -12,10 +12,10 @@ public class OgrenciIslemleri {
 
     void ogrenciMenu() {
         System.out.println(" ============= İŞLEMLER =============\n" +
-                "         1-EKLEME\n" +
-                "         2-ARAMA\n" +
-                "         3-LİSTELEME\n" +
-                "         4-SİLME\n" +
+                "         1-EKLE\n" +
+                "         2-ARA\n" +
+                "         3-LİSTELE\n" +
+                "         4-SİL\n" +
                 "         0-ÇIKIŞ\n" +
                 "    SEÇİMİNİZ:");
 
